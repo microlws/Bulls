@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Clumpsy CSS Reset */
+div, ul, ol, li {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-image: url("https://render.fineartamerica.com/images/images-profile-flow/350/images-medium-large-5/4-chicago-bulls-joe-hamilton.jpg");
+  background-position: center;
+  background-size: contain;
+  height: 150px;
+}
+
+.navigation {
+  background-image: linear-gradient(to top, red, black);
+  height: 60px;
+}
+
+.navigation__item {
+  display: inline-block;
+  font-size: 20px;
+  height: 60px;
+  line-height: 55px;
+  list-style-type: none;
+  padding-left: 30px;
+  text-align: center;
+  width: 150px;
+}
+
+.navigation__link {
+  color: white;
+  font-family: Impact;
+  text-decoration: none;
+}
+
+/* But don't do this though */
+.main {
+  min-height: 400px;
+  background-color: #FF0000;
+}
+
+.footer {
+  background-image: linear-gradient(to top, black, red);
+  height: 100px;
+}
+
+.inner {
+  max-width: 800px;
+  margin: 0 auto;
+}
