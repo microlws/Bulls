@@ -13,11 +13,11 @@ div, ul, ol, li {
   background-image: url("https://render.fineartamerica.com/images/images-profile-flow/350/images-medium-large-5/4-chicago-bulls-joe-hamilton.jpg");
   background-position: center;
   background-size: contain;
-  height: 150px;
+  height: 151px;
 }
 
 .navigation {
-  background-image: linear-gradient(to top, red, black);
+  background-image: linear-gradient(to top, rgb(44, 6, 6), black);
   height: 60px;
 }
 
